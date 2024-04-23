@@ -73,14 +73,12 @@ export default function Intro(props) {
               <h2 className="text-3xl text-black-400">Contact Me:</h2>
               <br />
               <p>
-                <div>
-                  <Link
-                    className="inline-block text-center bg-blue-500 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded"
-                    href="mailto:sherif.mansour88@gmail.com"
-                  >
-                    Email: sherif.mansour88@gmail.com <br />
-                  </Link>
-                </div>
+                <Link
+                  className="inline-block text-center bg-blue-500 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded"
+                  href="mailto:sherif.mansour88@gmail.com"
+                >
+                  Email: sherif.mansour88@gmail.com <br />
+                </Link>
               </p>
             </div>
           </div>
